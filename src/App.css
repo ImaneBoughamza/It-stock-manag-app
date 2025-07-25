@@ -1,0 +1,32 @@
+/* src/App.css */
+
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  min-height: 100vh;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Generic card styling used across the app */
+.card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Subtle text class (can be used in footers or side-notes) */
+.read-the-docs {
+  color: #888;
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 1rem;
+}

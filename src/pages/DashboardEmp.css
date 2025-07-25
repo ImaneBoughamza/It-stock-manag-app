@@ -1,0 +1,108 @@
+.employee-dashboard {
+  padding: 2rem;
+  background: #fff9f9;
+  color: #111;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.overview-cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border: 1.5px solid #ff6b6b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.red {
+  color: #dc3545;
+}
+
+.blue {
+  color: #007bff;
+}
+
+.blue-card {
+  border-color: #007bff;
+}
+
+.new-request-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.dashboard-tables {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.table-section {
+  flex: 1;
+  background: white;
+  border: 1.5px solid #ff6b6b;
+  border-radius: 12px;
+  padding: 1rem;
+  min-width: 300px;
+}
+
+.table-section h2 {
+  margin-bottom: 1rem;
+  color: #d93030;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.assigned {
+  color: #007bff;
+}
+
+.status.in-repair {
+  color: #d93030;
+}
+
+.status.approved {
+  color: green;
+}
+
+.status.denied {
+  color: red;
+}

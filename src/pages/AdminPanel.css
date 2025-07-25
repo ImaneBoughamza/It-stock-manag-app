@@ -1,0 +1,52 @@
+/* src/pages/AdminPanel.css */
+.admin-panel-page {
+  padding: 2rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.admin-panel-page h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.admin-table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #d72638;
+  color: #fff;
+  font-weight: 600;
+}
+
+.admin-table td {
+  color: #333;
+}
+
+.admin-table .role.admin {
+  color: #d72638;
+  font-weight: bold;
+}
+
+.admin-table .role.staff {
+  color: #222;
+}
