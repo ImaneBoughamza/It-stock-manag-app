@@ -1,0 +1,55 @@
+.stock-management {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.stock-management h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #d72638; /* Lear red */
+  font-weight: 700;
+}
+
+.search-bar {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1rem;
+  width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #d72638;
+  color: white;
+  font-weight: 600;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.stock-table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.stock-table tr:hover {
+  background-color: #f2f2f2;
+}
